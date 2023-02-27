@@ -1,0 +1,25 @@
+{
+    "name": "escape altona ",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "escape altona ": "github:ikeepa/escape-altona-#c6b9a04e3782b08bb21dc99b3e3fc957dbe96725"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.12.22",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
