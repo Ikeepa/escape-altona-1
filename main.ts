@@ -16,6 +16,4 @@ let mySprite = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player)
-game.onUpdate(function () {
-    controller.moveSprite(mySprite)
-})
+controller.moveSprite(mySprite)
